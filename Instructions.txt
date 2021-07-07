@@ -1,0 +1,4 @@
+# Script location
+/usr/lib/python3/dist-packages/thingsboard_gateway/
+# BEfore publishing data 
+tb_client/tb_device_mqtt.py   line no 264 method name publish_data 

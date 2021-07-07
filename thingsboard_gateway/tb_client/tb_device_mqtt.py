@@ -261,6 +261,7 @@ class TBDeviceMqttClient:
 
     def publish_data(self, data, topic, qos):
         data = dumps(data)
+        log.debug("Before publishing data %s",data)
         if qos is None:
             qos = self.quality_of_service
         if qos not in (0, 1):
